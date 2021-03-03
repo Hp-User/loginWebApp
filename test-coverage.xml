@@ -5,7 +5,7 @@
 	<property name="reports" location="reports"/>	 
 	<property name="report.junit.dir" location="${reports}/junit" />
 	 
-	<property name="cobertura.home.dir" value="D:/cobertura-2.1.1" />
+	<property name="cobertura.home.dir" value="C:/cobertura-2.1.1" />
 	 
 	<property name="htm.dir" location="${basedir}/html" />
 	
