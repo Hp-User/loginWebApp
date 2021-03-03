@@ -14,9 +14,9 @@
 		    <include name="*.jar" />			 
 		</fileset>
 		
-		<fileset dir="${basedir}/lib/htmlUnit">
-			<include name="*.jar" />			 
-		</fileset>	 
+   <fileset dir="${basedir}/lib/HtmlUnit">
+	<include name="*.jar"/>			 
+     </fileset>	 
          
 	</path>
 	

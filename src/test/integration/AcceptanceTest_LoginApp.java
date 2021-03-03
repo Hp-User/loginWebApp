@@ -144,11 +144,11 @@ webClient  = new WebClient(BrowserVersion.CHROME);
 	HtmlForm form = page.getFormByName("loginForm");
 	List elements = form.getElementsByTagName("input") ;		 
 	HtmlElement uname = (HtmlElement) elements.get(0);
-	uname.setAttribute("value", "ashok");
+	uname.setAttribute("value", "test-abcd");
 	//uname.setTextContent("ashok");
 	HtmlElement upass = (HtmlElement) elements.get(1);
 	//upass.setTextContent("morYa");
-	upass.setAttribute("value", "morYa");
+	upass.setAttribute("value", "password");
 	HtmlElement submitBtn = (HtmlElement) elements.get(2);
 	try {
 		nextPage  = submitBtn.click();
@@ -158,7 +158,7 @@ webClient  = new WebClient(BrowserVersion.CHROME);
 	}
 	 String textResponse = nextPage.getWebResponse().getContentAsString();
 	 
-	 assertEquals("Login successfull...", textResponse);
+	 assertEquals("Login successfull DONE...", textResponse);
 	}
 	
 	@Test
@@ -182,7 +182,7 @@ webClient  = new WebClient(BrowserVersion.CHROME);
 	}
 	 String textResponse = nextPage.getWebResponse().getContentAsString();
 	 
-	 assertEquals("Login Error...", textResponse);
+	 assertEquals("Login Error...appeared", textResponse);
 	}
 		 
 

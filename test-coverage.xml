@@ -5,7 +5,11 @@
 	<property name="reports" location="reports"/>	 
 	<property name="report.junit.dir" location="${reports}/junit" />
 	 
+<<<<<<< HEAD
 	<property name="cobertura.home.dir" value="C:/cobertura-2.1.1" />
+=======
+	<property name="cobertura.home.dir" value="C:\Users\ambiger\.jenkins\workspace\cobertura-2.1.1" />
+>>>>>>> c6e92d96dd473e90ebed8b3fbfaa2fe87336a801
 	 
 	<property name="htm.dir" location="${basedir}/html" />
 	
