@@ -7,7 +7,7 @@
 	 
 	<property name="cobertura.home.dir" value="C:\cobertura-2.1.1" />
 
-	<property name="cobertura.home.dir" value="C:\Users\ambiger\.jenkins\workspace\cobertura-2.1.1" />
+	<property name="cobertura.home.dir" value="C:\Users\chougaak\Downloads\jenkins training\Jenkins-part1-main\Jenkins-part1-main\Tools\cobertura-codecoverage-ver2.1.1-bin.tar" />
 	 
 	<property name="htm.dir" location="${basedir}/html" />
 	
