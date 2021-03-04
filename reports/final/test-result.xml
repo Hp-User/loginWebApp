@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="kmaster" name="test.integration.AcceptanceTest_LoginApp" skipped="0" tests="8" time="4.075" timestamp="2021-03-02T09:18:28">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="tomcat-manager-password" value="admin" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.8.0_191-b12" />
+    <property name="user.name" value="dell" />
+    <property name="reports" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/reports" />
+    <property name="build.dir" value="build/classes" />
+    <property name="tomcat-manager-username" value="admin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="acceptance-test" />
+    <property name="ant.project.name" value="Web-Test" />
+    <property name="java.version" value="1.8.0_191" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ant.file.type.Web-Test" value="file" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="IN" />
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/Test-Acceptance.xml" />
+    <property name="os.version" value="4.15.0-136-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.191-b12" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="app-url" value="http://localhost:8080" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="user.home" value="/home/dell" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="builder" value="MyTeam " />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.integration.AcceptanceTest_LoginApp skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/reports/final/test-result.xml crashfile=/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/junitvmwatcher5839562014431219425.properties propsfile=/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/junit6163980287737390835.properties" />
+    <property name="java.class.path" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/build/classes:/usr/lib/jvm/java-8-oracle/lib/tools.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/catalina-ant.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/junit-4.2.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/mockito-all-1.10.19.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/servlet-api.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/sonarqube-ant-task-2.4.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/spring-core-4.1.5.RELEASE.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/spring-test-4.1.5.RELEASE.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/tomcat-util.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/commons-codec-1.10.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/commons-io-2.6.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/commons-lang3-3.7.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/commons-logging-1.2.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/commons-net-3.6.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/commons-text-1.2.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/cssparser-0.9.24.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/htmlunit-2.29.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/htmlunit-core-js-2.28.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/httpclient-4.5.4.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/httpcore-4.4.7.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/httpmime-4.5.4.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/jetty-client-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/jetty-http-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/jetty-io-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/jetty-util-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/jetty-xml-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/neko-htmlunit-2.28.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/sac-1.3.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/serializer-2.7.2.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/websocket-api-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/websocket-client-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/websocket-common-9.4.8.v20171121.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/xalan-2.7.2.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/xercesImpl-2.11.0.jar:/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/HtmlUnit/xml-apis-1.4.01.jar:/usr/share/java/ant-launcher-1.10.5.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on March 28 2019" />
+    <property name="ant.file.Web-Test" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/Test-Acceptance.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="war-file" value="LoginApp.war" />
+    <property name="user.dir" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="project-name" value="LoginApp" />
+    <property name="basedir" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="tomcat-manager-url" value="http://localhost:8080/manager/text" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="source.dir" value="src" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="acceptance-test" />
+  </properties>
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="checkLoginFormAction" time="2.536" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="checkLoginSuccessAction" time="0.219" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="checkLoginError" time="0.134" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="verifyLoginFormID" time="0.141" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="verifyLoginPageMessage" time="0.076" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="verifyLoginPageForm" time="0.528" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="verifyLoginPageFormByName" time="0.049" />
+  <testcase classname="test.integration.AcceptanceTest_LoginApp" name="verifyLoginPageTitle" time="0.05" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1614678978768" analysisTimestamp="1614678978792" release="">
+  <Project projectName="">
+    <Jar>/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/build/classes/com/server</Jar>
+    <Jar>/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/build/classes/com/data/service</Jar>
+    <SrcDir>/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/src/com/server/,src/com/data/service</SrcDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" instanceHash="8c91a51d3e4c64f291b65a04110fd310" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Unread field</ShortMessage>
+    <LongMessage>Unread field: com.server.LoginServlet.num</LongMessage>
+    <Class classname="com.server.LoginServlet" primary="true">
+      <SourceLine classname="com.server.LoginServlet" start="15" end="80" sourcefile="LoginServlet.java" sourcepath="com/server/LoginServlet.java">
+        <Message>At LoginServlet.java:[lines 15-80]</Message>
+      </SourceLine>
+      <Message>In class com.server.LoginServlet</Message>
+    </Class>
+    <Field classname="com.server.LoginServlet" name="num" signature="I" isStatic="false" primary="true">
+      <SourceLine classname="com.server.LoginServlet" sourcefile="LoginServlet.java" sourcepath="com/server/LoginServlet.java">
+        <Message>In LoginServlet.java</Message>
+      </SourceLine>
+      <Message>Field com.server.LoginServlet.num</Message>
+    </Field>
+    <SourceLine classname="com.server.LoginServlet" primary="true" start="20" end="20" startBytecode="7" endBytecode="7" sourcefile="LoginServlet.java" sourcepath="com/server/LoginServlet.java">
+      <Message>At LoginServlet.java:[line 20]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="PERFORMANCE">
+    <Description>Performance</Description>
+  </BugCategory>
+  <BugPattern type="URF_UNREAD_FIELD" abbrev="UrF" category="PERFORMANCE">
+    <ShortDescription>Unread field</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="UrF">
+    <Description>Unread field</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="4">
+    <MissingClass>javax.servlet.ServletConfig</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServlet</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletRequest</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletResponse</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 2 Mar 2021 15:26:18 +0530" total_classes="3" referenced_classes="16" total_bugs="1" total_size="42" num_packages="2" java_version="1.8.0_191" vm_version="25.191-b12" cpu_seconds="9.48" clock_seconds="3.79" peak_mbytes="105.59" alloc_mbytes="3548.50" gc_seconds="0.10" priority_2="1">
+    <FileStats path="com/data/service/UserService.java" bugCount="0" size="2"/>
+    <FileStats path="com/data/service/UserServiceImpl.java" bugCount="0" size="10"/>
+    <FileStats path="com/server/LoginServlet.java" bugCount="1" size="30" bugHash="337752259e3eb46ac1abed8f6ed72595"/>
+    <PackageStats package="com.data.service" total_bugs="0" total_types="2" total_size="12">
+      <ClassStats class="com.data.service.UserService" sourceFile="UserService.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.data.service.UserServiceImpl" sourceFile="UserServiceImpl.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.server" total_bugs="1" total_types="1" total_size="30" priority_2="1">
+      <ClassStats class="com.server.LoginServlet" sourceFile="LoginServlet.java" interface="false" size="30" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="595" invocations="340" avgMicrosecondsPerInvocation="1752" maxMicrosecondsPerInvocation="53998" standardDeviationMircosecondsPerInvocation="4743"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="341" invocations="343" avgMicrosecondsPerInvocation="995" maxMicrosecondsPerInvocation="63060" standardDeviationMircosecondsPerInvocation="4143"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="196" invocations="16" avgMicrosecondsPerInvocation="12271" maxMicrosecondsPerInvocation="66953" standardDeviationMircosecondsPerInvocation="18591"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="140" invocations="66" avgMicrosecondsPerInvocation="2131" maxMicrosecondsPerInvocation="17314" standardDeviationMircosecondsPerInvocation="3383"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="139" invocations="302" avgMicrosecondsPerInvocation="461" maxMicrosecondsPerInvocation="23786" standardDeviationMircosecondsPerInvocation="1724"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="115" invocations="16" avgMicrosecondsPerInvocation="7201" maxMicrosecondsPerInvocation="23325" standardDeviationMircosecondsPerInvocation="7897"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="108" invocations="9" avgMicrosecondsPerInvocation="12075" maxMicrosecondsPerInvocation="104376" standardDeviationMircosecondsPerInvocation="32637"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="78" invocations="35" avgMicrosecondsPerInvocation="2241" maxMicrosecondsPerInvocation="36490" standardDeviationMircosecondsPerInvocation="6367"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="75" invocations="16" avgMicrosecondsPerInvocation="4722" maxMicrosecondsPerInvocation="27864" standardDeviationMircosecondsPerInvocation="7359"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="66" invocations="16" avgMicrosecondsPerInvocation="4179" maxMicrosecondsPerInvocation="32451" standardDeviationMircosecondsPerInvocation="8019"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="63" invocations="16" avgMicrosecondsPerInvocation="3952" maxMicrosecondsPerInvocation="27659" standardDeviationMircosecondsPerInvocation="6831"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="61" invocations="16" avgMicrosecondsPerInvocation="3837" maxMicrosecondsPerInvocation="34250" standardDeviationMircosecondsPerInvocation="8320"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="60" invocations="16" avgMicrosecondsPerInvocation="3810" maxMicrosecondsPerInvocation="19506" standardDeviationMircosecondsPerInvocation="5774"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="53" invocations="8" avgMicrosecondsPerInvocation="6645" maxMicrosecondsPerInvocation="42955" standardDeviationMircosecondsPerInvocation="13737"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

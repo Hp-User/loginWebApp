@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.0" timestamp="2021-03-02T15:26:24.580">
+<file name="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/src/com/data/service/UserServiceImpl.java">
+<violation beginline="8" endline="8" begincolumn="19" endcolumn="30" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="com.data.service" class="UserServiceImpl" method="validateUser" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="10" endline="10" begincolumn="26" endcolumn="38" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="com.data.service" class="UserServiceImpl" method="validateUser" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+</file>
+<file name="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/src/com/server/LoginServlet.java">
+<violation beginline="20" endline="20" begincolumn="21" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="com.server" class="LoginServlet" variable="num" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'num'.
+</violation>
+<violation beginline="43" endline="43" begincolumn="30" endcolumn="32" rule="UnusedLocalVariable" ruleset="Unused Code" package="com.server" class="LoginServlet" method="doPost" variable="app" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'app'.
+</violation>
+<violation beginline="45" endline="45" begincolumn="20" endcolumn="23" rule="UnusedLocalVariable" ruleset="Unused Code" package="com.server" class="LoginServlet" method="doPost" variable="data" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'data'.
+</violation>
+<violation beginline="61" endline="62" begincolumn="18" endcolumn="64" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.server" class="LoginServlet" method="doPost" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="67" endline="67" begincolumn="25" endcolumn="63" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="com.server" class="LoginServlet" method="doPost" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="69" endline="69" begincolumn="25" endcolumn="60" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="com.server" class="LoginServlet" method="doPost" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.0/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+</file>
+<error filename="/home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/servlet-api.jar" msg="Error while processing /home/dell/Desktop/Jenkins-Introduction-Part1/Projects/loginWebApp/lib/servlet-api.jar"/>
+</pmd>

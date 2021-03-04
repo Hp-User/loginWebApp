@@ -3,13 +3,13 @@
 	<property name="build.dir" value="build/classes" />
 	<property name="source.dir" value="src" />
 	<property name="reports" location="reports"/>
-	<property name="findbugs.home.dir" value="D:/findbugs-3.0.1"/>
+	<property name="findbugs.home.dir" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Tools/Code-Quality Tools/findbugs-3.0.1"/>
 	<property name="report.findbugs.dir" location="${reports}/findbugs" />
 	<property name="report.junit.dir" location="${reports}/junit" />
 
 
-	<property name="checkstyle.home.dir" location="D:/checkstyle-5.5" />	 
-	<property name="pmd.home.dir" value="D:/pmd-bin-5.1.0" />
+	<property name="checkstyle.home.dir" location="/home/dell/Desktop/Jenkins-Introduction-Part1/Tools/Code-Quality Tools/checkstyle-5.5" />	 
+	<property name="pmd.home.dir" value="/home/dell/Desktop/Jenkins-Introduction-Part1/Tools/Code-Quality Tools/pmd-bin-5.1.0" />
 	<property name="htm.dir" location="${basedir}/html" />
 	<property name="report.checkstyle.dir" location="${reports}/checkstyle" />
  	<property name="report.pmd.dir" location="${reports}/pmd" />	 
