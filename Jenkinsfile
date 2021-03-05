@@ -12,7 +12,7 @@ pipeline {
   }
         stage('Ant Version Run') {
             steps {
-                sh 'ant -f build.xml build-war'
+                bat 'ant -f build.xml build-war'
             }
         }
     }
